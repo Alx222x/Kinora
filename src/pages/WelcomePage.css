@@ -60,7 +60,7 @@
 /* Hero Section */
 .hero-section {
   flex: 0 0 auto;
-  padding: 40px 24px 20px;
+  padding: 40px 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,7 +75,7 @@
 }
 
 .hero-illustration {
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
