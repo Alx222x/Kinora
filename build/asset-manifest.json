@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e2cdc6d2.css",
+    "main.js": "/static/js/main.9485f3e0.js",
+    "static/media/locations.png": "/static/media/locations.d0f51dbfc756c91789d4.png",
+    "static/media/events.png": "/static/media/events.69db4f26f5b28504ce04.png",
+    "static/media/clubs.png": "/static/media/clubs.1173dacf010257be7e1b.png",
+    "static/media/family-hug.png": "/static/media/family-hug.1170f89e25fed12a1fb1.png",
+    "static/media/stars.png": "/static/media/stars.b1cc7780175b1cc19587.png",
+    "static/media/hug.png": "/static/media/hug.b49e10b47722eb3bec2f.png",
+    "static/media/community_trees.jpeg": "/static/media/community_trees.794e8510dffae4bd3639.jpeg",
+    "index.html": "/index.html",
+    "main.e2cdc6d2.css.map": "/static/css/main.e2cdc6d2.css.map",
+    "main.9485f3e0.js.map": "/static/js/main.9485f3e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2cdc6d2.css",
+    "static/js/main.9485f3e0.js"
+  ]
+}
