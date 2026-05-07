@@ -13,37 +13,37 @@ const WelcomePage = ({ onNavigate }) => {
           id: 'feed',
           title: 'Community Feed',
           description: 'Share updates, ask for favors and connect with neighbours',
-          icon: '🌊'
+          image: '/src/photos/hug.png'
         },
         {
           id: 'events',
           title: 'Events & Clubs',
           description: 'Connect with your neighbours through local events and clubs',
-          icon: '🌎'
+          image: '/src/photos/events.png'
         },
         {
           id: 'places',
           title: 'Discover places',
           description: 'Find the best spots in your area',
-          icon: '🏘️'
+          image: '/src/photos/locations.png'
         },
         {
           id: 'marketplace',
           title: 'Marketplace',
           description: 'Trade items in your neighbourhood',
-          icon: '💚'
+          image: '/src/photos/clubs.png'
         },
         {
           id: 'chat',
           title: 'Chat',
           description: 'Message neighbours directly',
-          icon: '☁️'
+          image: '/src/photos/family-hug.png'
         },
         {
           id: 'aura',
           title: 'Aura points',
           description: 'Earn rewards for community involvement',
-          icon: '⭐'
+          image: '/src/photos/stars.png'
         }
       ],
       signUp: 'Sign up'
