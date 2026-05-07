@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+  max-width 
+  margin: auto;
+  padding
   box-sizing: border-box;
 }
 
