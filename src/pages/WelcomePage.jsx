@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './WelcomePage.css';
+import communityBanner from '../photos/community_trees.jpeg';
 
 const WelcomePage = ({ onNavigate }) => {
   const [language, setLanguage] = useState('en');
@@ -118,7 +119,7 @@ const WelcomePage = ({ onNavigate }) => {
        <div className="hero-section">
         <div className="illustration-container">
           <img 
-            src="/src/photos/community_trees.jpeg" 
+             src={communityBanner}
             alt="Community illustration" 
             className="hero-illustration"
           />
