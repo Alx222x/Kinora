@@ -1,9 +1,16 @@
 .auth-container {
   height: 100vh;
+  width: 100vw;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+
+  background-image: url("/photos/portrait.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   font-family: Arial, sans-serif;
 }
 
