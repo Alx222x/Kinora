@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import './WelcomePage.css';
 import communityBanner from '../photos/community_trees.jpeg';
+import hugImg from '../photos/hug.png';
+import eventsImg from '../photos/events.png';
+import locationsImg from '../photos/locations.png';
+import clubsImg from '../photos/clubs.png';
+import familyImg from '../photos/family-hug.png';
+import starsImg from '../photos/stars.png';
 
 const WelcomePage = ({ onNavigate }) => {
   const [language, setLanguage] = useState('en');
@@ -14,37 +20,37 @@ const WelcomePage = ({ onNavigate }) => {
           id: 'feed',
           title: 'Community Feed',
           description: 'Share updates, ask for favors and connect with neighbours',
-          image: '/src/photos/hug.png'
+          image: hugImg
         },
         {
           id: 'events',
           title: 'Events & Clubs',
           description: 'Connect with your neighbours through local events and clubs',
-          image: '/src/photos/events.png'
+          image: eventsImg
         },
         {
           id: 'places',
           title: 'Discover places',
           description: 'Find the best spots in your area',
-          image: '/src/photos/locations.png'
+          image: locationsImg
         },
         {
           id: 'marketplace',
           title: 'Marketplace',
           description: 'Trade items in your neighbourhood',
-          image: '/src/photos/clubs.png'
+          image: clubsImg
         },
         {
           id: 'chat',
           title: 'Chat',
           description: 'Message neighbours directly',
-          image: '/src/photos/family-hug.png'
+          image: familyImg
         },
         {
           id: 'aura',
           title: 'Aura points',
           description: 'Earn rewards for community involvement',
-          image: '/src/photos/stars.png'
+          image: starsImg
         }
       ],
       signUp: 'Sign up'
@@ -136,7 +142,13 @@ const WelcomePage = ({ onNavigate }) => {
         <div className="features-grid">
           {t.features.map((feature) => (
             <div key={feature.id} className="feature-card">
-              <div className="feature-icon">{feature.icon}</div>
+              <div className="feature-icon">
+                <img
+                 src={feature.image}
+                 alt={feature.title}
+                 className="feature-image"
+                    />
+              </div>          
               <h3 className="feature-title">{feature.title}</h3>
               <p className="feature-description">{feature.description}</p>
             </div>
