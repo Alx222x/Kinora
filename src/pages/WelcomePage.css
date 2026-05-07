@@ -8,7 +8,7 @@
 
 .welcome-page {
   min-height: 100vh;
-  background: linear-gradient(180deg, #F0F7FB 0%, #E8F4F8 50%, #F5F9FB 100%);
+  background-color: #E6EBFF;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -69,24 +69,16 @@
 
 .illustration-container {
   width: 100%;
-  max-width: 300px;
   margin-bottom: 24px;
-  animation: float 3s ease-in-out infinite;
+  overflow: hidden;
+  border-radius: 0;
 }
 
 .hero-illustration {
   width: 100%;
   height: auto;
   display: block;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
+  object-fit: cover;
 }
 
 .hero-content {
