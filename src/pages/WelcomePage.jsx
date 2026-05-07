@@ -63,37 +63,37 @@ const WelcomePage = ({ onNavigate }) => {
           id: 'feed',
           title: 'Community Feed',
           description: 'Deel updates, vraag om hulp en verbind met buren',
-          icon: '🌊'
+          image: hugImg
         },
         {
           id: 'events',
           title: 'Evenementen & Clubs',
           description: 'Verbind met je buren via lokale evenementen en clubs',
-          icon: '🌎'
+          image: eventsImg
         },
         {
           id: 'places',
           title: 'Ontdek plekken',
           description: 'Vind de beste plekken in je buurt',
-          icon: '🏘️'
+          image: locationsImg
         },
         {
           id: 'marketplace',
           title: 'Marktplaats',
           description: 'Ruil items in je buurt',
-          icon: '💚'
+          image: clubsImg
         },
         {
           id: 'chat',
           title: 'Chat',
           description: 'Berichten rechtstreeks naar buren',
-          icon: '☁️'
+          image: familyImg
         },
         {
           id: 'aura',
           title: 'Aura punten',
           description: 'Verdien beloningen voor betrokkenheid in de gemeenschap',
-          icon: '⭐'
+          image: starsImg
         }
       ],
       signUp: 'Registreer'
