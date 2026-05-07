@@ -68,7 +68,7 @@
 }
 
 .illustration-container {
-  width: 100%;
+  width: 100vw;
   margin-bottom: 24px;
   overflow: hidden;
   border-radius: 0;
