@@ -9,6 +9,7 @@
 
 .welcome-page {
   min-height: 100vh;
+  margin: 0; 
   background-color: #E6EBFF;
   display: flex;
   flex-direction: column;
