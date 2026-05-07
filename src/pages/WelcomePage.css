@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap');
 
-* {
-    margin: 0;
+html,
+body {
+  margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .welcome-page {
@@ -13,6 +16,7 @@
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
   position: relative;
+  overflow-y: auto;
 }
 
 /* Language Toggle */
@@ -104,8 +108,8 @@
 
 /* Features Section */
 .features-section {
-  padding: 40px 24px 120px; /* extra bottom space for fixed CTA */
-  }
+  padding: 40px 24px 140px;
+}
 
 .features-grid {
   display: grid;
@@ -167,7 +171,7 @@
 
 /* CTA Section */
 .cta-section {
-   position: fixed;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -224,9 +228,9 @@
     padding: 0 12px;
   }
 
-  .features-section {
-    padding: 32px 20px;
-  }
+.features-section {
+  padding: 32px 20px 140px;
+}
 
   .features-grid {
     gap: 14px;
@@ -261,7 +265,7 @@
 
 @media (max-height: 700px) {
   .hero-section {
-    padding: 20px 24px 16px;
+    padding: 20px 0 16px;
   }
 
   .illustration-container {
@@ -277,7 +281,7 @@
   }
 
   .features-section {
-    padding: 24px 24px;
+     padding: 24px 24px 140px;
   }
 }
 
